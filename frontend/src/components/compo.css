@@ -1,0 +1,20 @@
+.navdiv{
+    width: 100%;
+    height: 10vh;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navdiv>:nth-child(1){
+    width: 50%;
+    margin: auto;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
